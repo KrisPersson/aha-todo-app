@@ -1,0 +1,9 @@
+
+.view {
+
+    &--main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4rem 1fr 4rem;
+    }
+}
