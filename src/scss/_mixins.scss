@@ -1,0 +1,12 @@
+@import './typography';
+
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin font {
+    font-family: $font;
+}
