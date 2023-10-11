@@ -10,7 +10,7 @@ function App() {
     <>
       {
         showLandingPage ? 
-        <LandingView /> :
+        <LandingView setShowLandingPage={setShowLandingPage} /> :
         <MainView />
       }
     </>

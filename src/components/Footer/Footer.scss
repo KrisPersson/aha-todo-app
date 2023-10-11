@@ -1,0 +1,31 @@
+@import "../../scss/mixins";
+
+footer {
+    background: white;
+    position: relative;
+    input {
+        height: 100%;
+        width: 20.375rem;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: black;
+        color: white;
+        @include font;
+        font-size: 1.625rem;
+        padding: 1rem;
+    }
+    button {
+        width: 4rem;
+        height: 4rem;
+        background: rgba(63, 192, 138, 1);
+        @include font;
+        @include center;
+
+        border: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+}
