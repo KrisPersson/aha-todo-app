@@ -1,0 +1,22 @@
+name: Lint Todo app
+
+on:
+  push:
+    branches:
+      - dev
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install modules
+        run: npm install
+      - name: Run lint
+        run: npm run lint
