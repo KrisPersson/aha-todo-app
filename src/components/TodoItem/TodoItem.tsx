@@ -1,4 +1,5 @@
 import "./TodoItem.scss"
+import * as React from 'react';
 
 export default function TodoItem({
     id,

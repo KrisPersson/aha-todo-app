@@ -1,4 +1,5 @@
 import "./LandingView.scss"
+import * as React from 'react';
 
 export default function LandingView({setShowLandingPage}: {setShowLandingPage: React.Dispatch<React.SetStateAction<boolean>>}) {
 
